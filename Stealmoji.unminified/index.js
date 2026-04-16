@@ -183,7 +183,7 @@ function showAddToServerActionSheet(emojiNode) {
 }
 function AddToServer({ emojiNode }) {
   const guilds = Object.values(GuildStore.getGuilds()).filter(function(guild) {
-    return PermissionsStore.can(common.constants.Permissions.MANAGE_GUILD_EXPRESSIONS, guild);
+    return PermissionsStore.can(common.constants.Permissions.CREATE_GUILD_EXPRESSIONS, guild);
   }).sort(function(a, b) {
     return a.name?.localeCompare?.(b.name);
   });
