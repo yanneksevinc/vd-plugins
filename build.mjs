@@ -132,7 +132,7 @@ async function buildReadme() {
     return [
       `## [${plugin.name}](${installURL})${forkOf ? " (fork)" : ""}`,
       forkOf ? `**Forked from: [${forkOf}](https://github.com/${forkOf})**` : null,
-      `**License:** ${license ? `[${license}](/plugins/${plugin.id}/LICENSE)` : "[GPLv3](/LICENSE)"}`,
+      `**License:** ${license ? `[${license}](/plugins/${plugin.id}/LICENSE)` : "[GPLv3](/LICENSE.md)"}`,
       plugin.description,
       `**Status:** ${status == "discontinued" ? "🪦 Discontinued" : status == "alpha" ? "💣 Alpha (UNSTABLE)" : "⛱️ Stable"}`,
       `\`${installURL}\``,
