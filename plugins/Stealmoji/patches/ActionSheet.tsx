@@ -16,7 +16,8 @@ export default () => before("openLazy", LazyActionSheet, ([lazySheet, name]) => 
         const unpatchView = after("type", sheet?.props?.children, (_, view) => {
           React.useEffect(() => unpatchView, []);
           
-          if (view?.props?.header) const unpatchHeader = after("type", view?.props?.header, (_, header) => {
+          if (!view?.props?.header) return;
+          const unpatchHeader = after("type", view.props.header, (_, header) => {
             React.useEffect(() => unpatchHeader, []);
             
             const row = findInReactTree(header, (c) => c?.props?.tabs?.length);
