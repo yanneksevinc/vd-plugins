@@ -20,6 +20,7 @@
     "icon": "ic_chat_bubble_16px"
   },
   "aliern": {
-    "forkOf": "aeongdesu/vdplugins"
+    "forkOf": "aeongdesu/vdplugins",
+    "license": "GPLv3"
   }
 }

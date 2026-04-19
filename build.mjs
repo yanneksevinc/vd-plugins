@@ -127,10 +127,12 @@ async function buildReadme() {
     const source = `${sourceWebsite}/${plugin.id}`;
     const forkOf = plugin.aliern?.forkOf;
     const status = plugin.aliern?.status ?? "stable";
+    const license = plugin.aliern?.license;
     
     return [
       `## [${plugin.name}](${installURL})${forkOf ? " (fork)" : ""}`,
       forkOf ? `**Forked from: [${forkOf}](https://github.com/${forkOf})**` : null,
+      `**License:** ${license ? `[${license}](/plugins/${plugin.id}/LICENSE)` : "[GPLv3](/LICENSE)"}`,
       plugin.description,
       `**Status:** ${status == "discontinued" ? "🪦 Discontinued" : status == "alpha" ? "💣 Alpha (UNSTABLE)" : "⛱️ Stable"}`,
       `\`${installURL}\``,

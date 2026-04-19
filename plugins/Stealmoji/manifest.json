@@ -20,6 +20,7 @@
     "icon": "ic_emoji_24px"
   },
   "aliern": {
-    "forkOf": "Fierdetta/stealmoji"
+    "forkOf": "Fierdetta/stealmoji",
+    "license": "GPLv3"
   }
 }
