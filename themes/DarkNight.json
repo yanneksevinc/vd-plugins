@@ -186,6 +186,27 @@
     "CHAT_BORDER": [
       null
     ],
+    "CHAT_INPUT_ACTION_BUTTON_BACKGROUND": [
+      null
+    ],
+    "CHAT_INPUT_ACTION_BUTTON_ICON_DEFAULT_TINT": [
+      null
+    ],
+    "CHAT_INPUT_ACTION_ICON_ACTIVE_TINT": [
+      null
+    ],
+    "CHAT_INPUT_BACKGROUND": [
+      null
+    ],
+    "CHAT_INPUT_ICON_DEFAULT_TINT": [
+      null
+    ],
+    "CHAT_INPUT_SEND_BUTTON_ACTIVE_BACKGROUND": [
+      null
+    ],
+    "CHAT_INPUT_SEND_BUTTON_ICON_ACTIVE_TINT": [
+      null
+    ],
     "CHECKBOX_BACKGROUND_DEFAULT": [
       null
     ],
@@ -624,10 +645,22 @@
     "MOBILE_COACHMARK_BORDER_DEFAULT": [
       null
     ],
+    "MOBILE_EMBED_BACKGROUND_DEFAULT": [
+      null
+    ],
     "MOBILE_EMOJI_BUTTON_BACKGROUND": [
       null
     ],
     "MOBILE_EXPRESSION_PICKER_BACKGROUND_DEFAULT": [
+      null
+    ],
+    "MOBILE_FLOATINGBAR_BACKGROUND": [
+      null
+    ],
+    "MOBILE_FLOATINGBAR_BACKGROUND_NAMEPLATE": [
+      null
+    ],
+    "MOBILE_FLOATINGBAR_BACKGROUND_SCRIM": [
       null
     ],
     "MOBILE_GUILDBAR_ICON_BACKGROUND_DEFAULT": [

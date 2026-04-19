@@ -403,7 +403,9 @@ function patchActionSheet() {
           common.React.useEffect(function() {
             return unpatchView;
           }, []);
-          const unpatchHeader = patcher.after("type", view?.props?.header, function(_3, header) {
+          if (!view?.props?.header)
+            return;
+          const unpatchHeader = patcher.after("type", view.props.header, function(_3, header) {
             common.React.useEffect(function() {
               return unpatchHeader;
             }, []);
