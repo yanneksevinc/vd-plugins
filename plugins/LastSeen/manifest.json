@@ -1,6 +1,6 @@
 {
-  "name": "Stealmoji",
-  "description": "Steal emojis on mobile with ease.",
+  "name": "lastseen",
+  "description": "adds lastseen.",
   "authors": [
     {
       "name": "Fiery",
@@ -15,7 +15,7 @@
       "id": "459370047652102154"
     }
   ],
-  "main": "index.ts",
+  "main": "plugin.js",
   "vendetta": {
     "icon": "ic_emoji_24px"
   },
