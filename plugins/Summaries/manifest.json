@@ -1,6 +1,6 @@
 {
-  "name": "SummariesAlpha",
-  "description": "Notifies you when a channel summary (experimental feature) is generated for channels you visit. This plugin is WIP and unstable.",
+  "name": "last seen"
+  "description": "adds last seen.",
   "authors": [
     {
       "name": "aliernfrog",
